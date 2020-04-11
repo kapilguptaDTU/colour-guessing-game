@@ -156,7 +156,7 @@ function checkColor(){
 	{console.log("yesssss!!! you did it"+ myMainColor);
 		h1.style.backgroundColor=clickedColor;
 		new_color.innerHTML=("PLAY AGAIN?");
-		statusDisplay.innerHTML="game over".toUpperCase();
+		statusDisplay.innerHTML="game over You WON :)".toUpperCase();
      return true;
 	}
     return false;
